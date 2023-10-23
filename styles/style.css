@@ -257,7 +257,7 @@ ol {
 .content__card-link {
   display: block;
   max-width: 394px;
-  padding: 2px;
+  margin: 2px;
   text-decoration: none;
   color: #fff;
 }
