@@ -17,9 +17,9 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
-  padding: 133px 30px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 h1,
@@ -42,27 +42,29 @@ ol {
 }
 
 .content {
-  display: flex;
+  width: 100%;
+  display: inline-flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  padding: 0 30px;
   gap: 30px;
+  padding: 0 30px;
 }
 
 .result {
-  inline-size: 711px;
-  display:flex;
-  flex-direction: column;
-  gap: 16px;
+  align-self: flex-end;
 }
 
 .result__video-container {
   position: relative;
   inline-size: 711px;
   height: 386px;
+  margin: 0 0 11px;
 }
 
 .result__video {
   object-fit: cover;
+  object-position: center;
   width: 100%;
   height: 100%;
 }
